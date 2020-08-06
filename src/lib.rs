@@ -1,5 +1,6 @@
-mod cell;
-mod refcell;
+pub mod cell;
+pub mod rc;
+pub mod refcell;
 
 #[cfg(test)]
 mod tests {
